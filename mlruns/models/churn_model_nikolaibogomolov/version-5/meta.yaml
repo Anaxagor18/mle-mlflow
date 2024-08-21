@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1722355002118
+current_stage: None
+description: null
+last_updated_timestamp: 1722355002118
+name: churn_model_nikolaibogomolov
+run_id: a7c549834cef433f8a7976297da91a1b
+run_link: null
+source: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/506229798541484327/a7c549834cef433f8a7976297da91a1b/artifacts/models
+status: READY
+status_message: null
+user_id: null
+version: 5

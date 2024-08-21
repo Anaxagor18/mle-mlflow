@@ -1,0 +1,34 @@
+artifact_path: models
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.1
+metadata:
+  model_type: monthly
+mlflow_version: 2.7.1
+model_uuid: 4510eb3489e64895b4dcfca2827cf866
+run_id: a556df00fc394658ba9c0ce62e67ec8a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "floor"}, {"type": "double", "name": "kitchen_area"},
+    {"type": "double", "name": "living_area"}, {"type": "long", "name": "rooms"},
+    {"type": "boolean", "name": "is_apartment"}, {"type": "double", "name": "total_area"},
+    {"type": "long", "name": "build_year"}, {"type": "double", "name": "ceiling_height"},
+    {"type": "long", "name": "flats_count"}, {"type": "long", "name": "floors_total"},
+    {"type": "boolean", "name": "has_elevator"}]'
+  outputs: '[{"type": "long", "name": "price"}]'
+  params: null
+utc_time_created: '2024-07-30 08:01:34.985952'
